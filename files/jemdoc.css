@@ -372,3 +372,43 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
+.publication-controls {
+    margin: 0.8em 0;
+}
+
+.publication-controls button {
+    padding: 0.12em 0.5em;
+    margin-right: 0.35em;
+    border: 1px solid #527bbd;
+    border-radius: 3px;
+    background: white;
+    color: #224b8d;
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.3;
+    cursor: pointer;
+}
+
+.publication-controls button[aria-pressed="true"] {
+    background: #224b8d;
+    border-color: #224b8d;
+    color: white;
+}
+
+.publication-controls button:hover {
+    border-color: #022b6d;
+    box-shadow: 0 0 0 1px #022b6d;
+}
+
+.publication-controls button:focus-visible {
+    outline: 2px solid #224b8d;
+    outline-offset: 3px;
+}
+
+.publication-note,
+.publication-description {
+    color: #444;
+}
